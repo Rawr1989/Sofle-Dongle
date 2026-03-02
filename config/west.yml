@@ -11,6 +11,9 @@ manifest:
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
+      revision: main
+    - name: urchin-peripheral-animation
+      remote: gpeye
       revision: main 
     - name: zmk
       remote: zmkfirmware
