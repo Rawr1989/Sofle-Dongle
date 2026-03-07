@@ -82,41 +82,41 @@ layers:
   - $$mdi:keyboard-tab$$
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:keyboard-tab$$
+  - Ctl+F
+  - Ctl+B
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+/, s: 'AltGr+?'}
   - '?'
   - AltGr+1
   - '!'
-  - '@'
+  - {t: '=', s: +}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Sft+Z
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+S
-  - Ctl+F
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - PgUp
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - (
   - )
-  - _
-  - AltGr+_
+  - {t: '-', s: _}
+  - {t: Sft+-, s: Sft+_}
   - AltGr+N
   - .
   - $$mdi:apple-keyboard-control$$
   - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - Gui+$$mdi:keyboard-tab$$
+  - Ctl+S
+  - Ctl+E
   - PgDn
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - {t: '=', s: +}
+  - '@'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
