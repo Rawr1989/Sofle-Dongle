@@ -110,7 +110,7 @@
 &kp ESC     &trans    &trans        &trans        &trans  &trans       &mmv MOVE_UP     &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans      &kp BACKSPACE
 &kp TAB     &trans    &trans        &trans        &trans  &trans       &mmv MOVE_DOWN   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans      &kp BSLH
 &kp LSHFT   &trans    &trans        &trans        &trans  &trans       &mmv MOVE_LEFT   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &trans           &trans      &kp APOS
-&kp LCTRL   &trans    &trans        &trans        &trans  &trans       &mmv MOVE_RIGHT  &trans           &trans           &trans           &trans           &trans      &kp ENTER
+&kp LCTRL   &trans    &trans        &trans        &trans  &trans       &mmv MOVE_RIGHT  &trans           &trans           &trans           &trans           &trans      &to 0
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &trans  &kp SPACE    &mkp LCLK        &kp SPACE        &kp ENTER        &trans           &kp RIGHT_SHIFT  &kp DELETE
             >;
 
