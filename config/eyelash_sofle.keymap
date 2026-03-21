@@ -58,22 +58,23 @@
 
             label = "SHIFT_MB3";
         };
-        alt_tab_once: alt_tab_once {
+        alt_tab_hold: alt_tab_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = 
+            bindings =
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&kp LALT>;
-    
-            label = "ALT_TAB_ONCE";
+                <&kp TAB>;
+
+            label = "ALT_TAB_HOLD";
         };
     };
 
     behaviors {
+        hold_tap {
+            tapping-term-ms = <180>;
+        };
     };
 
     keymap {
