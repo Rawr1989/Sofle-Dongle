@@ -71,13 +71,16 @@
     behaviors {
         alt_tab_switch: alt_tab_switch {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;  // ¡Importante! No necesita argumentos
+            #binding-cells = <0>;
             tapping-term-ms = <180>;
+            bindings = <&kp>, <&kp>;
             hold = <&alt_tab_hold>;
             tap = <&kp LA(TAB)>;
             flavor = "tap-preferred";
         };
     };
+
+
 
     keymap {
         compatible = "zmk,keymap";
