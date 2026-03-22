@@ -107,7 +107,7 @@ layers:
   - .
   - $$mdi:apple-keyboard-control$$
   - Ctl+Z
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+S
   - Ctl+E
   - PgDn
@@ -116,7 +116,7 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - '@'
+  - +
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
