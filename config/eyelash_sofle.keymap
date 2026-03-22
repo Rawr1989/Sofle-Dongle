@@ -58,28 +58,24 @@
 
             label = "SHIFT_MB3";
         };
-        alt_tab_hold: alt_tab_hold {
+            alt_tab_hold: alt_tab_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp TAB>;
-
-            label = "ALT_TAB_HOLD";
+            bindings = 
+                <&macro_press &kp LALT>,
+                <&macro_tap &kp TAB>,
+                <&macro_release &kp LALT>;
         };
     };
 
     behaviors {
-       alt_tab_switch: alt_tab_switch {
+        alt_tab_switch: alt_tab_switch {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
+            #binding-cells = <0>;  // ¡Importante! No necesita argumentos
             tapping-term-ms = <180>;
-            bindings = <&macro>, <&kp>;
             hold = <&alt_tab_hold>;
             tap = <&kp LA(TAB)>;
-            flavor = "tap-preferred";  // O "balanced" según prefieras
+            flavor = "tap-preferred";
         };
     };
 
