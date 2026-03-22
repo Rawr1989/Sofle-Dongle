@@ -82,8 +82,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - F11
   - F12
-  - Alt+$$mdi:keyboard-tab$$
-  - Ctl+F
+  - '&alt_tab_switch'
+  - $$mdi:keyboard-tab$$
   - Ctl+B
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+/, s: 'AltGr+?'}
