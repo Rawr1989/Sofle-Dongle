@@ -72,8 +72,14 @@
     };
 
     behaviors {
-        hold_tap {
+       alt_tab_switch: alt_tab_switch {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
             tapping-term-ms = <180>;
+            bindings = <&macro>, <&kp>;
+            hold = <&alt_tab_hold>;
+            tap = <&kp LA(TAB)>;
+            flavor = "tap-preferred";  // O "balanced" según prefieras
         };
     };
 
@@ -95,11 +101,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC     &kp F1         &kp F2        &kp F3                            &kp F4     &kp F5           &mmv MOVE_UP     &kp F6        &kp F7     &kp F8            &kp F9           &kp F10     &kp BACKSPACE
-&kp TAB     &kp F11        &kp F12       &ht &alt_tab_hold &kp LA(TAB)     &kp TAB    &kp LC(B)        &mmv MOVE_DOWN   &kp RA(FSLH)  &kp QMARK  &kp RA(NUMBER_1)  &kp EXCL         &kp EQUAL   &kp BSLH
-&kp LSHFT   &kp LC(LS(Z))  &kp LC(X)     &kp LC(C)                         &kp LC(V)  &kp PAGE_UP      &mmv MOVE_LEFT   &kp LPAR      &kp RPAR   &kp MINUS         &kp RS(MINUS)    &kp RA(N)   &kp APOS
-&kp LCTRL   &kp LC(Z)      &kp LG(TAB)   &kp LC(S)                         &kp LC(E)  &kp PAGE_DOWN    &mmv MOVE_RIGHT  &kp LBKT      &kp RBKT   &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp AT      &kp DELETE
-&kp C_MUTE  &kp ENTER      &kp LEFT_GUI  &kp LEFT_ALT                      &trans     &kp SPACE        &mkp LCLK        &kp SPACE     &kp ENTER  &kt RIGHT_SHIFT   &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp F1         &kp F2        &kp F3              &kp F4     &kp F5           &mmv MOVE_UP     &kp F6        &kp F7     &kp F8            &kp F9           &kp F10     &kp BACKSPACE
+&kp TAB     &kp F11        &kp F12       &alt_tab_switch     &kp TAB    &kp LC(B)        &mmv MOVE_DOWN   &kp RA(FSLH)  &kp QMARK  &kp RA(NUMBER_1)  &kp EXCL         &kp EQUAL   &kp BSLH
+&kp LSHFT   &kp LC(LS(Z))  &kp LC(X)     &kp LC(C)           &kp LC(V)  &kp PAGE_UP      &mmv MOVE_LEFT   &kp LPAR      &kp RPAR   &kp MINUS         &kp RS(MINUS)    &kp RA(N)   &kp APOS
+&kp LCTRL   &kp LC(Z)      &kp LG(TAB)   &kp LC(S)           &kp LC(E)  &kp PAGE_DOWN    &mmv MOVE_RIGHT  &kp LBKT      &kp RBKT   &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp AT      &kp DELETE
+&kp C_MUTE  &kp ENTER      &kp LEFT_GUI  &kp LEFT_ALT        &trans     &kp SPACE        &mkp LCLK        &kp SPACE     &kp ENTER  &kt RIGHT_SHIFT   &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "RUNES";
