@@ -40,7 +40,7 @@ layers:
   - I
   - O
   - .
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Z
   - X
   - C
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - RUNES
@@ -99,13 +99,13 @@ layers:
   - Ctl+V
   - PgUp
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - (
-  - )
-  - {t: '-', s: _}
-  - {t: Sft+-, s: Sft+_}
   - AltGr+N
-  - .
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '-', s: _}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+Z
   - Ctl+F
   - Ctl+S
@@ -119,7 +119,7 @@ layers:
   - +
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {type: held}
@@ -128,8 +128,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   DIGITS:
   - $$mdi:keyboard-esc$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -179,8 +179,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
-  - KP DOT
   - KP COMMA
+  - KP DOT
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
@@ -192,8 +192,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - KP NUMLOCK
   - $$mdi:apple-keyboard-shift$$
+  - KP NUM
   - {t: MATRIX, h: toggle}
   SIGILS:
   - $$mdi:keyboard-esc$$
