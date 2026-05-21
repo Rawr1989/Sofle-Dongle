@@ -12,6 +12,10 @@ manifest:
     - name: pic_derecha_sofle
       remote: rawr1989
       revision: main
+    - name: pic_derecha_sofle_right
+      remote: rawr1989
+      repo-path: pic_derecha_sofle
+      revision: derecha
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
