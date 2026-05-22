@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
+  - +
   - $$mdi:apple-keyboard-control$$
   - Ctl+Z
   - Ctl+F
@@ -116,7 +116,7 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - +
+  - {t: '-', s: _}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
