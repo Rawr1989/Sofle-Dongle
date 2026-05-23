@@ -12,6 +12,9 @@ manifest:
     - name: pic_derecha_sofle
       remote: rawr1989
       revision: main
+    - name: nice-view-mod
+      remote: rawr1989
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
