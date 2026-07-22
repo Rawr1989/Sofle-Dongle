@@ -86,10 +86,10 @@ layers:
   - $$mdi:keyboard-tab$$
   - Ctl+B
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: AltGr+/, s: 'AltGr+?'}
-  - '?'
   - AltGr+1
   - '!'
+  - {t: '-', s: _}
+  - $$mdi:arrow-up-bold$$
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
@@ -99,10 +99,10 @@ layers:
   - Ctl+V
   - PgUp
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '|', h: toggle}
   - AltGr+N
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
@@ -116,7 +116,7 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - {t: '-', s: _}
+  - {t: AltGr+/, s: 'AltGr+?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
@@ -128,8 +128,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - PAUSE BREAK
   DIGITS:
   - $$mdi:keyboard-esc$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
