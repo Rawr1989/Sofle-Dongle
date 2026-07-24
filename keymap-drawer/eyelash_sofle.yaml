@@ -314,8 +314,8 @@ layers:
   - {t: /, s: '?'}
   - {t: MATRIX, h: toggle}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
