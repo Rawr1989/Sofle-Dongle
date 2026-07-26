@@ -49,9 +49,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - M
   - H
-  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
@@ -244,9 +244,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - M
   - H
-  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
