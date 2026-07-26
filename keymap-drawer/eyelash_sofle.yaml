@@ -15,43 +15,43 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
   - W
-  - F
-  - P
-  - B
-  - $$mdi:arrow-down-bold$$
-  - J
   - L
-  - U
   - Y
+  - P
+  - K
+  - $$mdi:arrow-down-bold$$
+  - Z
+  - J
+  - O
+  - U
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - A
+  - C
   - R
   - S
   - T
-  - G
+  - B
   - $$mdi:arrow-left-bold$$
-  - M
+  - F
   - N
   - E
   - I
-  - O
+  - A
   - .
   - $$mdi:apple-keyboard-control$$
-  - Z
   - X
-  - C
-  - D
   - V
+  - D
+  - G
+  - Q
   - $$mdi:arrow-right-bold$$
-  - K
+  - M
   - H
+  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
@@ -210,43 +210,43 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
   - W
-  - F
-  - P
-  - B
-  - $$mdi:arrow-down-bold$$
-  - J
   - L
-  - U
   - Y
+  - P
+  - K
+  - $$mdi:arrow-down-bold$$
+  - Z
+  - J
+  - O
+  - U
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - A
+  - C
   - R
   - S
   - T
-  - G
+  - B
   - $$mdi:arrow-left-bold$$
-  - M
+  - F
   - N
   - E
   - I
-  - O
+  - A
   - .
   - $$mdi:apple-keyboard-control$$
-  - Z
   - X
-  - C
-  - D
   - V
+  - D
+  - G
+  - Q
   - $$mdi:arrow-right-bold$$
-  - K
+  - M
   - H
+  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
