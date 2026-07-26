@@ -118,7 +118,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        layer_3 {
             bindings = <
 &kp ESC     &kp N1        &kp N2     &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8         &kp N9           &kp N0    &kp BACKSPACE
 &kp TAB     &kp Q         &kp W      &kp F         &kp P   &kp B        &kp DOWN_ARROW   &kp J      &kp L      &kp U          &kp Y            &kp SEMI  &kp BSLH
@@ -131,7 +131,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &kp ESC     &trans     &trans     &trans     &trans     &trans    &mmv MOVE_UP     &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans  &kp BACKSPACE
 &kp TAB     &kp LC(Q)  &kp LC(W)  &kp LC(F)  &kp LC(P)  &trans    &mmv MOVE_DOWN   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans  &kp BSLH
