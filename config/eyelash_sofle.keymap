@@ -124,7 +124,7 @@
 &kp TAB     &kp W         &kp L      &kp Y         &kp P   &kp K        &kp DOWN_ARROW   &kp Z      &kp J      &kp O          &kp U            &kp SEMI   &kp BSLH
 &kp LSHFT   &kp C         &kp R      &kp S         &kp T   &kp B        &kp LEFT_ARROW   &kp F      &kp N      &kp E          &kp I            &kp A      &kp APOS
 &kp LCTRL   &kp X         &kp V      &kp D         &kp G   &kp Q        &kp RIGHT_ARROW  &kp M      &kp H      &kp COMMA      &kp DOT          &kp SLASH  &kp DELETE
-&kp C_MUTE  &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT  &mo 4   &kp SPACE    &kp ENTER        &kp SPACE  &kp SPACE  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &to 0
+&kp C_MUTE  &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT  &mo 4   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &to 0
             >;
 
             display-name = "GAMER";
