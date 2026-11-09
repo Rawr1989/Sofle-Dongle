@@ -22,7 +22,7 @@ layers:
   - K
   - $$mdi:arrow-down-bold$$
   - Z
-  - J
+  - X
   - O
   - U
   - {t: ;, s: ':'}
@@ -41,7 +41,7 @@ layers:
   - A
   - .
   - $$mdi:apple-keyboard-control$$
-  - X
+  - J
   - V
   - D
   - G
@@ -217,7 +217,7 @@ layers:
   - K
   - $$mdi:arrow-down-bold$$
   - Z
-  - J
+  - X
   - O
   - U
   - {t: ;, s: ':'}
@@ -236,7 +236,7 @@ layers:
   - A
   - .
   - $$mdi:apple-keyboard-control$$
-  - X
+  - J
   - V
   - D
   - G
